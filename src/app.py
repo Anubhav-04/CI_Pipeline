@@ -1,10 +1,11 @@
 # Application to verify wheather is eligible to caste their vote or not
 
-def eligibleToVote(Age):
+def eligibleToVote(name,Age):
     if Age >= 18:
-        print("Yes you are eligible to vote.")
+        print(f"Hi {name} Yes you are eligible to vote.")
     else:
-        print("You are not eligible to vote.")
-    
+        print(f"Hi {name} You are not eligible to vote.")
+
+name = input("Enter your name:- ")    
 age = int(input("Hi, Please enter your age:- "))
-eligibleToVote(age)
+eligibleToVote(name,age)
