@@ -1,4 +1,4 @@
-# Application to verify wheather is eligible to caste their vote or not
+# Application to verify wheather the voter is eligible to caste their vote or not
 
 def eligibleToVote(name,Age):
     if Age >= 18:
